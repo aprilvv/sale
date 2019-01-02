@@ -1,0 +1,25 @@
+table {
+    border: 1px solid #699;
+}
+th {
+    font-style: italic;
+    text-align: left;
+    border: 1px dotted #699;
+    background-color: #9cc;
+    color: #000;
+}
+th, td {
+    font-size: 10px;
+    width: 10em;
+    padding: .5em;
+}
+tr:nth-child(odd) {
+    background-color: #ffc;
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr.highlight td {
+    color: #233;
+    background-color: #cba;
+}
